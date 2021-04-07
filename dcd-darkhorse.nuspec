@@ -26,9 +26,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.2</version>
+    <version>1.0</version>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>Maurice Kevenaar</owners>
+    <owners>Deven Prasad</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -42,7 +42,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <copyright>Newell Rubbermaid</copyright>
     <tags>dymo-connect dymo label admin</tags>
     <releaseNotes>http://developers.dymo.com/</releaseNotes>
-    <packageSourceUrl>https://github.com/paramedicspecialist/dcd-darkhorse</packageSourceUrl>
+    <packageSourceUrl>https://github.com/paramedicspecialist/dcd-darkhorse/release</packageSourceUrl>
     <docsUrl>http://www.dymo.com/en-US/online-support</docsUrl>
     <summary>Dymo label printing software</summary>
     <description><![CDATA[## DYMO-Label
